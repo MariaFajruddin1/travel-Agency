@@ -24,3 +24,28 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+.highlight {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    color: white; /* text color inside highlight */
+  }
+
+  .highlight::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    top: 50%;
+    background: #FF6900;
+    z-index: -1;
+    transform: rotate(-1deg);
+    padding: 0 5px;
+  }
