@@ -83,9 +83,9 @@ export default function Header() {
                 </div>
 
                 {/* header */}
-                <div className="lg:flex justify-between place-items-center">
+                <div className="lg:flex justify-between place-items-center lg:pt-0 pt-10">
                     <div className="lg:w-[50%]">
-                        <h1 className="text-8xl font-bold">Plan <span className="highlight">Your Trip</span> Book with Us</h1>
+                        <h1 className="lg:text-8xl text-6xl font-bold">Plan <span className="highlight">Your Trip</span> Book with Us</h1>
                         <p className="text-lg pt-5 w-[80%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio velit corrupti est debitis nam sint adipisci natus. Vitae voluptates consequuntur quia?</p>
                         <button className="mt-7 bg-orange-500 text-lg px-5 py-2.5 rounded-xl hover:bg-orange-600 cursor-pointer">Discover More</button>
                     </div>

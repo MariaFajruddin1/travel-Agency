@@ -5,9 +5,6 @@ import place2 from '@/public/images/place2.webp';
 import place3 from '@/public/images/place3.webp';
 import place4 from '@/public/images/place4.webp';
 import place5 from '@/public/images/place5.webp';
-import place6 from '@/public/images/place6.webp';
-import place7 from '@/public/images/place7.webp';
-import place8 from '@/public/images/place8.webp';
 import place9 from '@/public/images/place9.avif';
 import { IoLocationSharp } from "react-icons/io5";
 
@@ -37,21 +34,6 @@ const placesList = [
         place: 'Cappadocia',
         image: place5
     },
-    // {
-    //     name: 'Ireland',
-    //     place: 'Cliffs of Moher',
-    //     image: place6
-    // },
-    // {
-    //     name: 'Australia',
-    //     place: 'Shark Bay',
-    //     image: place7
-    // },
-    // {
-    //     name: 'Portugal',
-    //     place: 'Algarve',
-    //     image: place8
-    // },
     {
         name: 'Paris',
         place: 'Eiffel Tower',

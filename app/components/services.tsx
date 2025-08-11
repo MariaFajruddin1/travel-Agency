@@ -7,7 +7,7 @@ export default function Services() {
     return (
         <>
             <div className="container">
-                <h4 className="text-6xl font-bold text-center pt-15">Our <span className="highlight">Service</span></h4>
+                <h4 className="text-6xl font-bold text-center lg:pt-15">Our <span className="highlight">Service</span></h4>
                 <div className="lg:flex flex-wrap lg:justify-between justify-center">
                     <div className="group bg-neutral-900 rounded-2xl hover:bg-orange-500 cursor-pointer text-white lg:w-[30%] p-6 transition-colors duration-300 mt-15">
                         <LuTicketSlash size={40} className="text-orange-500 group-hover:text-white" />
